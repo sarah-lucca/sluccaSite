@@ -1,0 +1,50 @@
+body {
+	background: ghostwhite;
+}
+
+#welcome {
+	background-color: white;
+	/*height: 140px;*/
+	text-align: center;
+	line-height: 140px;
+	font-style: italic;
+	font-size: 30px;
+	font-family: monospace;
+}
+
+.menu-head {
+	background-color: white;
+	text-align: center;
+	margin: auto;
+	height: 50px;
+	line-height: 50px;
+	width: 30%;
+	font-family: cursive;
+	font-size: 22px;
+}
+
+.menu-list {
+	/*background-color: white;*/
+	text-align: left;
+	margin: auto;
+	padding-right: 2em;
+	/*padding-left: 10px;*/
+	height: 60px;
+	width: 0%;
+}
+
+.menu-list p {
+	display: none;
+	margin: auto;
+	padding-left: 6em;
+}
+
+.bagel {
+	float: left;
+	padding-top: 5px;
+}
+
+a:link {
+	color: #401b82;
+	text-decoration: none;
+}
