@@ -23,7 +23,7 @@ body {
 	font-size: 22px;
 }
 
-.menu-list {
+#menu-list-1 {
 	/*background-color: white;*/
 	text-align: left;
 	margin: auto;
@@ -31,13 +31,68 @@ body {
 	/*padding-left: 10px;*/
 	height: 60px;
 	width: 0%;
+	transition: width .2s;
 }
-
-.menu-list p {
+#menu-list-1:hover {
+	background-color: white;
+	width: 45%;
+}
+#menu-list-1:hover p {
+	display: block;
+}
+#menu-list-1 p {
 	display: none;
 	margin: auto;
-	padding-left: 6em;
+	padding-left: 4.5em;
 }
+
+
+#menu-list-2 {
+	/*background-color: white;*/
+	text-align: left;
+	margin: auto;
+	padding-right: 2em;
+	/*padding-left: 10px;*/
+	height: 60px;
+	width: 0%;
+	transition: width .2s;
+}
+#menu-list-2:hover {
+	background-color: white;
+	width: 45%;
+}
+#menu-list-2:hover p {
+	display: block;
+}
+#menu-list-2 p {
+	display: none;
+	margin: auto;
+	padding-left: 4.5em;
+}
+
+#menu-list-3 {
+	/*background-color: white;*/
+	text-align: left;
+	margin: auto;
+	padding-right: 2em;
+	/*padding-left: 10px;*/
+	height: 60px;
+	width: 0%;
+	transition: width .2s;
+}
+#menu-list-3:hover {
+	background-color: white;
+	width: 45%;
+}
+#menu-list-3:hover p {
+	display: block;
+}
+#menu-list-3 p {
+	display: none;
+	margin: auto;
+	padding-left: 4.5em;
+}
+
 
 .bagel {
 	float: left;
