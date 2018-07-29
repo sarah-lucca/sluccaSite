@@ -42,129 +42,46 @@ nav {
 	line-height: 7.1vw;
 }
 
-.menu-head {
-	color: darkred;
+#experience {
+	background-color: #ccd6c1;
+}
+
+#experienceHead {
 	text-align: center;
-	margin: inherit;
-	height: 0px;
-	line-height: 50px;
-	width: 12%;
-	font-family: monospace;
-	font-size: 22px;
-	position: relative;
-	z-index: 1;
+	font-size: 3vw;
+	font-family: sans-serif;
+	color: #3d799e;
+	background-color: inherit;
 }
 
-#menu-list-1 {
-	text-align: center;
-	margin: auto;
-	padding-right: 3.5em;
-	height: 60px;
-	width: 0%;
-	transition: width .3s;
-}
-#menu-list-1:hover {
-	width: 45%;
-}
-#menu-list-1:hover p {
-	display: block;
-}
-#menu-list-1 p {
-	display: none;
-	margin: auto;
-	padding-left: 2.8em;
-}
-
-
-#menu-list-2 {
-	text-align: center;
-	margin: auto;
-	padding-right: 3.5em;
-	height: 60px;
-	width: 0%;
-	transition: width .2s;
-}
-#menu-list-2:hover {
-	width: 45%;
-}
-#menu-list-2:hover p {
-	display: block;
-}
-#menu-list-2 p {
-	display: none;
-	margin: auto;
-	padding-left: 2.8em;
-}
-
-#menu-list-3 {
-	text-align: center;
-	margin: auto;
-	padding-right: 3.5em;
-	height: 60px;
-	width: 0%;
-	transition: width .2s;
-}
-#menu-list-3:hover {
-	width: 45%;
-}
-#menu-list-3:hover p {
-	display: block;
-}
-
-#menu-list-3 p {
-	display: none;
-	margin: auto;
-	padding-left: 2.8em;
+#experinceText {
+	background-color: inherit;
 }
 
 #info {
-	display: grid;
-  	grid-template-columns: auto auto auto;
-  	grid-gap: 10px;
-  	padding: 10px;
+	display: inline-block;
 }
 
-#info > div {
-  color: white;
-  font-size: 30px;
+.emojiDeco {
+	font-size: 3.2vw;
+	text-align: center;
 }
 
-#galleryButtonDiv {
-	grid-column-start: 1;
-	grid-column-end: 4;
-	width: 100%;
-	border-bottom: 4px solid indianred;
-	border-top: 4px solid indianred;
+
+.greenHead {
+	color: green;
+	text-align: center;
+	font-size: 3vw;
+	font-family: sans-serif;
 }
 
-#galleryButtonDiv button {
-	width: 100%;
-	height: 400px;
-	border: 0px;
-	font-size: 50px;
-	font-style: italic;
+#personalText {
+	font-size: 1.6vw;
 	font-family: monospace;
-	color: white;
-	background-color: rgba(51, 153, 102, 0.5);
-
+	padding-left: 14vw;
+	padding-right: 14vw;
+	line-height: 3vw;
 }
-
-#galleryButtonDiv button:hover {
-	background-color: rgba(51, 153, 102, 0.3);
-}
-
-#personal {
-	grid-column-start: 1;
-	grid-column-end: 4;
-	width: 100%;
-	height: 800px;
-	font-style: italic;
-	font-family: monospace;
-	background-color: rgba(51, 153, 102, 0.5);
-	border-bottom: 4px solid indianred;
-	border-top: 4px solid indianred;
-}
-
 
 
 #personal h2 {
@@ -195,12 +112,85 @@ nav {
 	padding: 15px;
 }
 
-.bagel {
-	float: left;
-	padding-top: 5px;
+.company {
+	display: inline-block;
+	width: 80%;
 }
 
+.companyPic {
+	width: 80%;
+}
+
+.companyPic img {
+	float: left;
+	height: 17vw;
+	width: 17vw;
+	border-radius: 25%;
+	margin-left: 35%;
+}
+
+.companyDescription {
+	float: right;
+	width: 46%;
+}
+
+.companyTitle {
+	font-size: 2.5vw;
+	font-family: sans-serif;
+}
+
+.companyPosition {
+	font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: #3d789d;
+}
+
+.companyLocation {
+	font-family: monospace;
+    font-variant-caps: all-small-caps;
+    font-size: 1.8vw;
+    color: white;
+}
+
+.companyJobDescription {
+	padding-top: 5%;
+    font-family: monospace;
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+}
+
+#contact {
+	display: inline-block;
+	background-color: #5d7150;
+	width: 100%;
+}
+
+#contactHead {
+	display: -webkit-inline-box;
+	color: #dcfdff;
+    padding-left: 3%;
+    padding: 2.5%;
+    font-size: 1.8vw;
+    font-family: sans-serif;
+    font-variant-caps: all-small-caps;
+    float: left;
+    width: 5.5%;
+    border-right: #dcfdff 1.4px solid;
+}
+
+.contactPng img{
+	height: 3vw;
+	width: 3vw;
+}
+
+
 a:link {
-	color: firebrick;
+	color: #fffd82;
 	text-decoration: none;
+}
+
+a:visited {
+	color: #fffd82;
 }
