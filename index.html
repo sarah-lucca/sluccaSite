@@ -1,91 +1,124 @@
 <!doctype html>
-<html>
-	<head>
-		<title>SARAH LUCCA</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<link rel="shortcut icon" type="image/png" href="images/everything_bagel.png">
-	</head>
-	<body>
-		<div id="welcome">
-		<!-- <img src="images/bridge.png" alt="mmm delicious" id="personalPicture"> -->
-		<p id="welcomeMsg">hi! <br> i'm sarah</p>  
-		</div>
-		<br>
-			<div class="scrollToTop">
-				<!-- <img src="images/palmNav" id="toTopTree" width="40" height="40">  -->
-			</div>
-		<div id="info">
-			
-			<div id="personal">
-			<br>
-			<div class="greenHead"><h3>about me</h3></div>
-				<div id="personalText">
-				<p> <strong>Hi there. </strong>I'm Sarah. I like to think of myself as someone who was raised and bathed in sunlight. Hopefully I can bring a little light into your life. <br><br> Please take a look around, everything you see on this site was made from scratch. Contact me if you <strong>REALLY</strong> like what you see and wanna throw me a message *cough cough* I need a postgrad job :). <br><br> <strong>hobbies include:</strong> googling pictures of Antoni from queer eye, hiking, eating new foods, and telling my friends that they can be whatever they want. <br> </p>
-				</div>
-				<p class="emojiDeco"> ☼</p>
-			</div>
-			<br>
-			<div id="experience">
-				<div id="experienceHead">
-				<br>
-				<h3>what i've done</h3>
-				</div>
-				<div id="experienceText">
-					<br>
-					<br>
-					<div class="company">
-						<div class="companyPic">
-							<a href="https://imeasureu.com/"><img src="images/imu.png"></a>
-						</div>
-						<div class="companyDescription">
-							<div class="companyTitle"><a href="https://imeasureu.com/">IMeasureU - VICON</a></div>
-							<div class="companyPosition">Software Developer Intern</div>
-							<div class="companyLocation">Auckland, New Zealand</div>
-							<div class="companyJobDescription">Design, implement and test a serverless cloud-based platform. Contribute to all aspects of the software development lifecycle, develop, test and deploy new functionality including: Dashboards and data visualizations. <br><br>
-							Maintain and upgrade existing software. Review and maintain coding standards. Collaborate with design, dev and engineering teams both locally and remotely</div>
-						</div>
-					</div>
-					<br><br><br><br>
-					<div class="company">
-						<div class="companyPic">
-							<a href="http://www.dtcc.com/"><img src="images/dtcc.png"></a>
-						</div>
-						<div class="companyDescription">
-							<div class="companyTitle"><a href="http://www.dtcc.com/">DTCC</a></div>
-							<div class="companyPosition">Application Developer Intern</div>
-							<div class="companyLocation">Boston, Massachusettes</div>
-							<div class="companyJobDescription">Support any on going projects and assist the team in day to day activities, design networking interfaces, assist with writing or reviewing code, assist with database organization and features, assist with technical specifications, and assist with the interweaving of new code into older systems.</div>
-						</div>
-					</div>
-					<br><br><br><br>
-					<div class="company">
-						<div class="companyPic">
-							<a href="https://www.signatureflorida.com/"><img src="images/signature.png"></a>
-						</div>
-						<div class="companyDescription">
-							<div class="companyTitle"><a href="https://www.signatureflorida.com/">Signature International Real Estate</a></div>
-							<div class="companyPosition">IT Intern</div>
-							<div class="companyLocation">Boca Raton, Florida</div>
-							<div class="companyJobDescription">Worked on front-end and back-end of company database and websites. Created Excel formulas to organize spreadsheets into data which could be easily entered into PHPMyAdmin using MySQL. Created complex triggers in MySQL to keep the company database organized and up-to-date. Created and updated Wordpress websites using PHP, HTML, CSS, and a custom-built API. Used Google Analytics to extract information on multiple domains belonging to Signature to track the company's overall website traffic</div>
-						</div>
-					</div>
-				</div>
-				<p class="emojiDeco"> ☼</p>
-				<br>
-			</div>		
-			<div id="contact"> 
-			<div id="contactHead"> contact  
-			</div>
-			<div id="contactLinks">
-			<div class="contactPng"><img src="images\instagram.png"></div>
-			<div class="contactPng"><img src="images\twitter.png"></div>
-			<div class="contactPng"><img src="images\linkedin.png"></div>
-			</div>
-			</div>
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+    <title>SARAH LUCCA</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="images/everything_bagel.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="images/desktop-background.png" />
+</head>
+<body>
+<div id="welcome">
+    <div id="contactLinksHeader">
+        <div class="contactPngHeader"><a href="https://www.instagram.com/sahara_lucca/"><img src="images\instagram.png"></a></div>
+        <div class="contactPngHeader"><a href="https://twitter.com/saharalucca"><img src="images\twitter.png"></a></div>
+        <div class="contactPngHeader"><a href="https://www.linkedin.com/in/sarah-lucca-020890110/"><img src="images\linkedin.png"></a></div>
+        <div class="contactPngHeader"><a href="https://github.com/sarah97"><img src="images\github.png"></a></div>
+        <div class="contactPngHeader"><address><a href="mailto:SDLucca1997@gmail.com"><img src="images\email.png"></a></address></div>
+    </div>
+    <p id="welcomeMsg"><span>hi! </span><br><br> <span> i'm sarah&nbsp;</span></p>
+</div>
+<br>
+<div class="scrollToTop">
+    <img href="#top" id="myBtn" title="Go to top"/>
+</div>
+<div id="info">
 
-		</div>
-		
+    <div id="personal">
+        <br>
+        <div class="greenHead"><h3>about me</h3></div>
+        <div id="personalText">
+            <p><strong>Hi there. </strong>I'm Sarah. I like to think of myself as someone who was raised and bathed in
+                sunlight. Hopefully I can bring a little light into your life. <br><br> Please take a look around,
+                everything you see on this site was made from scratch. Contact me if you <strong>REALLY</strong> like
+                what you see and want me to edit your website :). <br><br> <strong>Hobbies include:</strong> googling
+                pictures of Antoni from queer eye, front-end development, hiking, eating new foods, and telling my
+                friends that they can be whatever they want. <br></p>
+        </div>
+        <p class="emojiDeco"><img src="images/sun.png"></p>
+    </div>
+    <br>
+    <div id="experience">
+        <div id="experienceHead">
+            <br>
+            <h3>what i've done</h3>
+        </div>
+        <div id="experienceText">
+            <br>
+            <br>
+            <div class="company">
+                <div class="companyPic">
+                    <a href="https://www.carbonblack.com/"><img src="images/cb.png"></a>
+                </div>
+                <div class="companyDescription">
+                    <div class="companyTitle"><a href="https://www.carbonblack.com/">Carbon Black</a></div>
+                    <div class="companyPosition">Site Reliability Engineer</div>
+                    <div class="companyLocation">Boston, Massachusettes</div>
+                    <div class="companyJobDescription">Ownership, architecture and management of AWS infrastructure
+                        components such as VPCs, EC2, S3, tagging schemes, CloudFormation, etc. Deployment and
+                        management automation of cloud-based infrastructure and software. <br><br> Working with configuration
+                        management tools in both Windows and Linux - Cloudformation,Salt, Terraform. Ensuring
+                        cloud-based architectures meet availability and recoverability requirements. Architecture and
+                        implementation of cloud-based monitoring, alerting and reporting; CloudWatch, StatusCake,
+                        Splunk.
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="company">
+                <div class="companyPic">
+                    <a href="https://imeasureu.com/"><img src="images/imu.png"></a>
+                </div>
+                <div class="companyDescription">
+                    <div class="companyTitle"><a href="https://imeasureu.com/">IMeasureU - VICON</a></div>
+                    <div class="companyPosition">Software Developer Intern</div>
+                    <div class="companyLocation">Auckland, New Zealand</div>
+                    <div class="companyJobDescription">Design, implement and test a serverless cloud-based platform.
+                        Contribute to all aspects of the software development lifecycle, develop, test and deploy new
+                        functionality including: Dashboards and data visualizations. <br><br>
+                        Maintain and upgrade existing software. Review and maintain coding standards. Collaborate with
+                        design, dev and engineering teams both locally and remotely.
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="company">
+                <div class="companyPic">
+                    <a href="http://www.dtcc.com/"><img src="images/dtcc.png"></a>
+                </div>
+                <div class="companyDescription">
+                    <div class="companyTitle"><a href="http://www.dtcc.com/">DTCC</a></div>
+                    <div class="companyPosition">Application Developer Intern</div>
+                    <div class="companyLocation">Boston, Massachusettes</div>
+                    <div class="companyJobDescription">Support any on going projects and assist the team in day to day
+                        activities, design networking interfaces, assist with writing or reviewing code, assist with
+                        database organization and features, assist with technical specifications, and assist with the
+                        interweaving of new code into older systems.
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br>
 
-		<script src="index.js"></script>
-	</body>
+        </div>
+        <p class="emojiDeco"><img src="images/sun.png"></p>
+        <br>
+    </div>
+    <div id="contact">
+        <div id="contactHead"> contact
+        </div>
+        <div id="contactLinks">
+            <div class="contactPng"><a href="https://www.instagram.com/sahara_lucca/"><img src="images\instagram.png"></a></div>
+            <div class="contactPng"><a href="https://twitter.com/saharalucca"><img src="images\twitter.png"></a></div>
+            <div class="contactPng"><a href="https://www.linkedin.com/in/sarah-lucca-020890110/"><img src="images\linkedin.png"></a></div>
+            <div class="contactPng"><a href="https://github.com/sarah97"><img src="images\github.png"></a></div>
+            <div class="contactPng"><address><a href="mailto:SDLucca1997@gmail.com"><img src="images\email.png"></a></address></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
 </html>

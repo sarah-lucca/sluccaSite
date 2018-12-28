@@ -1,16 +1,10 @@
 body {
-	/*background: #ffedf7;*/
-	/*background: #ffe6e6;*/
-	/*background-image: url("images/palm.png");*/
 	margin: 0;
 }
-
 nav {
-	/*margin: initial;*/
 	position: fixed;
 	width: 10%;
 }
-
 #welcome {
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -19,8 +13,6 @@ nav {
 	background-image: URL("images/bridge.png");
 	background-attachment: fixed;
 	min-height: 0px;
-
-
 	color: #dcfdff;
 	line-height: 60px;
 	font-style: italic;
@@ -30,22 +22,18 @@ nav {
 	font-weight: lighter;
 	height: -webkit-fill-available;
 }
-
 #welcomeMsg {
-	/*margin: inherit;*/
-	float: left;
-	font-variant-caps: normal;
-	font-size: 7vw;
-	font-weight: bold;
-	padding-left: 14vw;
-	padding-top:9vw;
-	line-height: 7.1vw;
+    float: left;
+    font-variant-caps: normal;
+    font-size: 2.4em;
+    font-weight: bold;
+    padding-left: 2vw;
+    padding-top: 9vw;
+    line-height: 12vh;
 }
-
 #experience {
 	background-color: #ccd6c1;
 }
-
 #experienceHead {
 	text-align: center;
 	font-size: 3vw;
@@ -53,28 +41,24 @@ nav {
 	color: #3d799e;
 	background-color: inherit;
 }
-
 #experinceText {
 	background-color: inherit;
 }
-
 #info {
 	display: inline-block;
 }
-
 .emojiDeco {
-	font-size: 3.2vw;
 	text-align: center;
 }
-
-
+.emojiDeco img {
+    height: 7vh;
+}
 .greenHead {
 	color: green;
 	text-align: center;
 	font-size: 3vw;
 	font-family: sans-serif;
 }
-
 #personalText {
 	font-size: 1.6vw;
 	font-family: monospace;
@@ -82,13 +66,10 @@ nav {
 	padding-right: 14vw;
 	line-height: 3vw;
 }
-
-
 #personal h2 {
 	font-weight: lighter;
 	padding-left: 95px;
 }
-
 #personalPicture {
 	display: block;
 	max-height: -webkit-fill-available;
@@ -96,13 +77,11 @@ nav {
 	width: 100%;
 	height: 100%;
 	zoom: 150%;
-	}
-
+}
 #personalCaption {
 	text-align: center;
 	font-size: 12px;
 }
-
 #personalBody {
 	background-color: white;
 	color: firebrick;
@@ -111,16 +90,13 @@ nav {
 	margin: auto;
 	padding: 15px;
 }
-
 .company {
 	display: inline-block;
 	width: 80%;
 }
-
 .companyPic {
 	width: 80%;
 }
-
 .companyPic img {
 	float: left;
 	height: 17vw;
@@ -128,17 +104,14 @@ nav {
 	border-radius: 25%;
 	margin-left: 35%;
 }
-
 .companyDescription {
 	float: right;
 	width: 46%;
 }
-
 .companyTitle {
 	font-size: 2.5vw;
 	font-family: sans-serif;
 }
-
 .companyPosition {
 	font-family: monospace;
     font-weight: bold;
@@ -146,27 +119,23 @@ nav {
     line-height: 2vw;
     color: #3d789d;
 }
-
 .companyLocation {
 	font-family: monospace;
     font-variant-caps: all-small-caps;
     font-size: 1.8vw;
     color: white;
 }
-
 .companyJobDescription {
 	padding-top: 5%;
     font-family: monospace;
     font-size: 1.2vw;
     line-height: 1.8vw;
 }
-
 #contact {
 	display: inline-block;
 	background-color: #5d7150;
 	width: 100%;
 }
-
 #contactHead {
 	display: -webkit-inline-box;
 	color: #dcfdff;
@@ -179,18 +148,175 @@ nav {
     width: 5.5%;
     border-right: #dcfdff 1.4px solid;
 }
-
-.contactPng img{
-	height: 3vw;
-	width: 3vw;
+.contactPng {
+    padding-left: 8px;
+    padding-right: 8px;
 }
-
-
+.contactPngHeader {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.contactPngHeader img{
+    height: 3.5vw;
+    width: 3.5vw;
+}
+.contactPng img{
+	height: 2vw;
+	width: 2vw;
+}
+#contactLinksHeader {
+    float: right;
+    background-color: #302ebf73;
+    border-radius: 10px;
+}
+#contactLinks {
+    margin-left: 3%;
+    margin-top: 2.5%;
+    display: inline-flex;
+}
 a:link {
 	color: #fffd82;
 	text-decoration: none;
 }
-
 a:visited {
 	color: #fffd82;
+}
+#myBtn {
+    opacity: 0;
+    height: 6.5vh;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    content: url("images/up-arrow.png");
+    background-color: #cacacaca;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+#welcomeMsg span {
+    background-color: #302ebf57;
+}
+@media only screen and (max-width: 600px) {
+    #welcomeMsg {
+        display: block;
+        float: left;
+        font-size: 1em;
+        font-weight: bold;
+        line-height: 12vh;
+        margin-top: 30%;
+        word-wrap: break-word;
+    }
+    .contactPngHeader img {
+        height: 7.5vw;
+        width: 7.5vw;
+    }
+    #welcome {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: URL("images/mobile-background.png");
+        background-attachment: local;
+        min-height: 0px;
+        color: #dcfdff;
+        line-height: 60px;
+        font-style: italic;
+        font-size: 50px;
+        font-family: sans-serif;
+        font-variant: all-small-caps;
+        font-weight: lighter;
+        height: -webkit-fill-available;
+        width: 100%;
+    }
+    #myBtn {
+        display: none;
+        height: 6.5vh;
+    }
+    #myBtn:hover {
+        background-color: #cacacaca;
+    }
+    .greenHead h3 {
+        font-size: 5em;
+    }
+    #experienceHead h3 {
+        font-size: 5em;
+    }
+    #personalText {
+        font-size: 1.4em;
+        font-family: monospace;
+        padding-left: 14vw;
+        padding-right: 14vw;
+        line-height: 2em;
+    }
+    .company {
+        display: inline-block;
+        width: 100%;
+    }
+    .companyPic {
+        text-align: center;
+        width: 100%;
+    }
+    .companyPic img {
+        height: 50%;
+        width: 50%;
+        border-radius: 25%;
+        float: none;
+        margin-left: 0;
+    }
+    .companyDescription {
+        width: 65%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .companyTitle {
+        font-size: 2em;
+        font-family: sans-serif;
+    }
+    .companyPosition {
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 1em;
+        line-height: 25px;
+        color: #3d789d;
+    }
+    .companyLocation {
+        font-family: monospace;
+        font-variant-caps: all-small-caps;
+        font-size: 1.3em;
+        color: white;
+    }
+    .companyJobDescription {
+        padding-top: 5%;
+        font-family: monospace;
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+    #contactHead {
+        display: -webkit-inline-box;
+        color: #dcfdff;
+        padding-left: 3%;
+        padding: 2.5%;
+        font-size: 1.5em;
+        font-family: sans-serif;
+        font-variant-caps: all-small-caps;
+        float: left;
+        width: auto;
+        border-right: #dcfdff 1.4px solid;
+    }
+    #contactLinks {
+        margin-left: 3%;
+        margin-top: 3%;
+        display: inline-flex;
+    }
+    .contactPng img {
+        height: 8vw;
+        width: 8vw;
+    }
 }
